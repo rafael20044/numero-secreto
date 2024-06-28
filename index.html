@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Numero secreto en JavaScript</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="main__contenido">
+            <h1 class="main__contenido__titulo">Adivina el número secreto</h1>
+            <p class="main__contenido__titulo__p">El número se encuentra en un rango del 1 al 10</p>
+            <p class="main__contenido__titulo__p" id="intentos">intentos: 1/5</p>
+            <input type="number" class="main__contenido__titulo__input" id="input">
+            <label for="" class="main__contenido__label" id="info"></label>
+        </section>
+        <div class="main__botones">
+            <button class="main__botones__boton" onclick="verificar();">Intentar</button>
+            <button class="main__botones__boton" disabled id="boton" onclick="reiniciar();">Reiniciar</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
