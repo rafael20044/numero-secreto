@@ -79,6 +79,7 @@ body{
     color: var(--color-cuarto);
     border-radius: 5px;
 }
+
 .main__botones__boton:hover{
     font-size: 16px;
     font-family: var(--fuente-krona);
@@ -87,4 +88,24 @@ body{
     color: var(--color-terciario);
     border-radius: 5px;
     cursor: pointer;
+}
+
+.footer{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer__parrafo{
+    color: var(--color-cuarto);
+    font-size: 16px;
+    font-family: var(--fuente-krona);
+}
+
+.footer__link{
+    color: var(--color-cuarto);
+    font-size: 16px;
+    font-family: var(--fuente-krona);
+    text-decoration: none;
 }
